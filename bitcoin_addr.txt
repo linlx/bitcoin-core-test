@@ -1,0 +1,56 @@
+address 1
+2MxfNS8sB1GcCo3GBLmX2PUw277H9zvrn2L
+priv key 1
+cMvPCWfPtr6C7thGnGLXDnUHwrf9YLw7qvzBga46Ex7fEhWiJcrK
+
+address 2
+2N6WFhMUsXtSHr6ZxEV7PoNgjxxo3cxbYtp
+priv key 2
+cNcvQphXWjAJ365Y8Tuhti5a6fCh9ftpR3GScZs5vdidBwQqpxT4
+
+
+# bitcoin-cli -regtest listaddressgroupings
+[
+  [
+    [
+      "mshvGjnc2dAWM6d2xtgyKRgX9BQTYnCYh9",
+      0.00000000
+    ]
+  ],
+  [
+    [
+      "mvTyCRo7Sx73acMuRLf2sRDdor8daFFJyA",
+      0.00000000
+    ],
+    [
+      "2N1YWnHH3AYNzREqqDKk9wffeq39C9nRn3N",
+      0.00000000
+    ],
+    [
+      "2N3JhwKbnP5VTVrpZHnXxkMDES2qmqUHvr6",
+      0.00000000
+    ]
+  ],
+  [
+    [
+      "n1affM6QjXLFmrDmLpWJxwMJfEsvwiDhNX",
+      0.00000000
+    ]
+  ],
+  [
+    [
+      "2MuZszSQBTmZHJJ7Poh8x35eygFyCTV2T1B",
+      0.00000000,
+      ""
+    ],
+    [
+      "2NAfWtRBi6d6RAg5N57vMS1oVPm7na7BiDF",
+      0.00000000,
+      ""
+    ],
+    [
+      "2NBafDCr2m7At4gcme79jGJXRaXzvQmPkop",
+      0.00000000
+    ]
+  ]
+]

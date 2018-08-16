@@ -9,15 +9,15 @@ const regtest = bitcoin.networks.testnet
 const bip65 = require('bip65')
 
 //輸入私鑰，教學用，請勿隨意公開私鑰
-var privateKey = "cMvPCWfPtr6C7thGnGLXDnUHwrf9YLw7qvzBga46Ex7fEhWiJcrK";
+var privateKey = "cNcvQphXWjAJ365Y8Tuhti5a6fCh9ftpR3GScZs5vdidBwQqpxT4";
 
 //產生公鑰跟私鑰
 const keyPair = bitcoin.ECPair.fromWIF(privateKey,regtest);
 
 //產生付款位址
-const { address } = bitcoin.payments.p2pkh({ pubkey: keyPair.publicKey })
-
-const txb = new bitcoin.TransactionBuilder(regtest)
+const { address } = bitcoin.payments.p2pkh({ pubkey: keyPair.publicKey });
+console.log(bitcoin.payments.p2pkh({ pubkey: keyPair.publicKey }));
+const txb = new bitcoin.TransactionBuilder(regtest);
 
 
 //用listunspent 取出最後一筆資料的txid
